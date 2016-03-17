@@ -1,0 +1,48 @@
+git init - инициализаци€ репозитори€
+git status - “екушее состо€ние проекта
+git add "файл" - добавление файла в область размещени€
+git commit -m "комментарий"
+git log - просмотр логов(коментариев)
+git remote add origin ссылка на удаленный git - добавление удаленного репозитори€ origin - название удаленного репозитори€
+git push -u origin master (push - где поставить комментарии; -u - запомнить; origin - удаленный репозиторий; mastrer - локальный
+git pull origin master - показать есть ли изменени€ относительно вашего последнего push
+git diff HEAD - смотрит какие именно изменени€ произошли
+git diff --staged - изменени€, которые мы только вставили
+git reset - удаление файла
+git checkout -- octocat.txt - ќткат файла до последней фиксации
+git branch clean_up - создать новую ветку
+git checkout clean_up - переключение на ветку clean_up
+git rm файл(маска) - удаление файлов
+git merge clean_up - объединитьс€ с clean_up
+git checkout ветка - переключитьс€ на ветку
+git merge clean_up - сли€ние с веткой
+git branch -d clean_up - удаление ветки
+
+
+
+   add        Add file contents to the index (ƒобавить содержимое файла в индекс)
+   bisect     Find by binary search the change that introduced a bug (Ќайти с помощью двоичного поиска изменени€, которые ввел ошибку)
+   branch     List, create, or delete branches (создавать или удал€ть ветви)
+   checkout   Checkout a branch or paths to the working tree (переход к дереву)
+   clone      Clone a repository into a new directory (клонирование репозитори€ в новый каталог)
+   commit     Record changes to the repository (запись изменений в хранилище)
+   diff       Show changes between commits, commit and working tree, etc (показывает изменени€ между комитами и коммитами рабочего дерева)
+   fetch      Download objects and refs from another repository (скачать из другого репозитори€)
+   grep       Print lines matching a pattern (выводит строку, совпадающую с шаблоном)
+   init       Create an empty git repository or reinitialize an existing one  создает новое хранилище или переинициализирует старое
+   log        Show commit logs () показывает коммиты
+   merge      Join two or more development histories together сли€ние веток
+   mv         Move or rename a file, a directory, or a symlink перемещение или переименование файла или директории
+   pull       Fetch from and merge with another repository or a local branch 
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+
+
+
+ 
